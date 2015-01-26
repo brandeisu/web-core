@@ -65,7 +65,7 @@ var NUM_TABS=tabs.length;
 			new_span.dataset.href=label_folders[f1]+"/"+label_hrefs[f1][f2];
 			new_span.className="green_label";
 			new_span.style.paddingLeft="15px";
-			new_span.addEventListener("click",function(){location.href="html/"+this.dataset.href+".php"});
+			new_span.addEventListener("click",function(){location.href="html/"+this.dataset.href+".html"});
 			new_dd.appendChild(new_span);
 		}
 

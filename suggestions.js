@@ -13,9 +13,9 @@ var suggs=[
 	"who's in the Student Union?"
 ];
 var targets=[
-	"html/club_support/index.php",
-	"html/events/index.php",
-	"html/meet_the_team/index.php"
+	"html/club_support/index.html",
+	"html/events/index.html",
+	"html/meet_the_team/index.html"
 ];
 
 function newImg(src){
