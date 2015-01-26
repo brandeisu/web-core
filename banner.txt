@@ -1,0 +1,10 @@
+Modeled after /admissions, blue_recolored in addition to blue_strip makes the background for #blue_strip.
+
+Attempt 1: I tried to discriminate pixels as white (-->absolute white) or blue (-->transparent).
+([i]<=382) discriminated by the red value. This absolutism led to poor, rough edges.
+
+Attempt 2: Draw blue_recolored and blue_strip, then try to consolidate the pixels.
+1. Draw blue_recolored at an offset, and get the data (PicData).
+2. Draw blue_strip at an offset elsewhere, and get the data (TextData).
+3. Consolidate the data: PicData=(white-T)*
+4. Put PicData.
