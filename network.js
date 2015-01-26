@@ -1,6 +1,7 @@
 /* Prakhar Sahay 01/18/2015
 
-Use node_heap[] and edge_heap[] to produce the graphical map on network.php.
+Use node_heap[] and edge_heap[] to produce the graphical map on network.html.
+Position nodes over the canvas and draw edges to the canvas.
 */
 
 var content=document.getElementById("content_body");

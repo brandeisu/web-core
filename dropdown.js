@@ -1,4 +1,10 @@
-	var x='<div id="blue_strip">'+
+/* Prakhar Sahay 01/26/2015
+
+This is used on every page to add the HTML and event listeners for the dropdown menu.
+*/
+
+// First, add the dropdown. Previously implemented through PHP.
+var php='<div id="blue_strip">'+
 	'<img id="blue_img" src="res/blue_text.png" width="150" onclick="location.href=\'html/index.html\'">'+
 	'<span id="blue_text" onclick="location.href=\'html/index.html\'">Student Union</span>'+
 	'<div id="menu_strip">'+
@@ -12,7 +18,7 @@
 	'</div>'+
 	'<div class="horiz_margin" style="position:absolute;top:80px;width:1020px"></div>'+
 '</div>';
-document.getElementsByTagName("body")[0].innerHTML=x;
+document.getElementsByTagName("body")[0].innerHTML=php;
 
 
 var menu_strip=document.getElementById("menu_strip");
