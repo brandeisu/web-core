@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Home</title>
-<base href="/~prakhar/union/">
+<base href="/web-core/">
 <link rel="shortcut icon" href="res/logo.ico">
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="index.css">
