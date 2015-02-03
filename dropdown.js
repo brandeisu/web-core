@@ -31,25 +31,24 @@ var NUM_TABS=tabs.length;
 	var labels=[
 		["Union Branches","Graphical Network"],// meet the team
 		["Allocations","Treasury","Creating a Club"],// club support
-		["COW-G","Dining","Club Support","Services & Outreach",
-			"SJ and Diversity","Sustainability","Ways and Means"],// senate
-		// margolin dining, herbstritt club support, mitchell COW-G,
-		// michalos s&o, marla sj&d, anna sustain, brian w&m
-		["Turkey","Boston/Cambridge","Riverside T-station"],// transportation
+		[/*"COW-G",*/"Dining","Club Support","Services & Outreach",
+			/*"SJ and Diversity","Sustainability","Ways and Means"*/],// senate
+		// mitchell,margolin,herbstritt,michalos
+		// marla,anna,brian
+		["Boston/Cambridge","Riverside T-station","Turkey"],// transportation
 		// ["Forms","Constitution"],// resources
 		// ["Calendar","DeisDay","DeisImpact"]// events
 		// ceef
 	];
 	var label_folders=[
-		"meet_the_team","club_support","senate",
-		"transportation"//,"resources","events"
+		"meet_the_team","club_support","senate","transportation"//,"resources","events"
 	];
 	var label_hrefs=[
 		["branches","network","deans"],
 		["allocations","treasury","club_support_comm"],
 		["cowg","dining","club_support","services_and_outreach",
 			"sj_and_diversity","sustainability","ways_and_means"],
-		["turkey","boston_cambridge","riverside"],
+		["boston_cambridge","riverside","turkey"]
 		// ["forms","constitution"],
 		// ["calendar","deisday","deisimpact"]
 	];
